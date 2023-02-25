@@ -440,7 +440,7 @@ def isValidSQL(sql, db):
         return False
     return True
 
-
+#temp summit
 def print_scores(scores, etype):
     levels = ['easy', 'medium', 'hard', 'extra', 'all']
     partial_types = ['select', 'select(no AGG)', 'where', 'where(no OP)', 'group(no Having)',
